@@ -14,7 +14,6 @@
 
 .Button {
   display: flex;
-  flex: 1;
   flex-direction: row;
   border: none;
   background-size: 125%;

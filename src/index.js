@@ -45,7 +45,7 @@ class InstagramButton extends Component {
               </div>
             </button>
             <div class="Bubble">
-              {this.state.user.edge_follow.count} Followers
+              {this.state.user.edge_follow.count} followers
             </div>
           </a>
         </div>
