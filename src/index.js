@@ -41,7 +41,7 @@ class InstagramButton extends Component {
                 </a>
               </div>
               <div class="UserName">
-                <div>&nbsp;Follow @{this.props.username}</div>
+                <div>Follow @{this.props.username}</div>
               </div>
             </button>
             <div class="Bubble">

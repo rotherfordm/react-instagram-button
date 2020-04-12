@@ -46,12 +46,12 @@
 
 .Icon {
   display: flex;
-  font-size: 25px;
+  font-size: 1rem;
 }
 
 .UserName {
-  flex: 1;
-  padding: 5px;
+  font-size: 11px;
+  padding: 2px;
 }
 
 .Bubble {
@@ -63,7 +63,7 @@
   margin-left: 10px;
   border-radius: 8px 8px 8px 8px;
   border: 1px solid #dbdbdb;
-  font-size: 1rem;
+  font-size: 11px;
   text-decoration: underline;
 }
 
