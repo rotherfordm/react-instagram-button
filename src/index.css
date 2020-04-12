@@ -39,14 +39,11 @@
 }
 
 .IconContainer {
-  width: 25px;
-  flex-direction: row;
-  justify-content: center;
+  width: 13px;
 }
 
 .Icon {
-  display: flex;
-  font-size: 1rem;
+  font-size: 15px;
 }
 
 .UserName {
