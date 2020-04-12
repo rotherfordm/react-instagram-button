@@ -28,7 +28,7 @@
     #e1306c,
     #fd1d1d
   );
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 2.5px 2.5px 2.5px 2.5px;
   color: #fafafa;
   outline: none;
   cursor: pointer;
@@ -62,6 +62,7 @@
   border: 1px solid #dbdbdb;
   font-size: 11px;
   text-decoration: underline;
+  height: 20px;
 }
 
 .Bubble:before {
@@ -75,5 +76,5 @@
   border-top: none;
   border-right: none;
   transform: translateY(-50%) translateX(-50%) rotate(45deg);
-  right: 5.5px;
+  right: 1.5px;
 }
