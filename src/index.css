@@ -49,19 +49,18 @@
 .UserName {
   font-size: 11px;
   padding: 2px;
+  padding-left: 5px;
 }
 
 .Bubble {
   display: flex;
   color: #000;
   background-color: #fafafa;
-  padding: 5px;
-  padding-right: 15px;
+  padding-right: 8px;
   margin-left: 10px;
-  border-radius: 8px 8px 8px 8px;
+  border-radius: 4px 4px 4px 4px;
   border: 1px solid #dbdbdb;
   font-size: 11px;
-  text-decoration: underline;
   height: 20px;
 }
 
@@ -76,5 +75,5 @@
   border-top: none;
   border-right: none;
   transform: translateY(-50%) translateX(-50%) rotate(45deg);
-  right: 1.5px;
+  right: -0.5px;
 }
