@@ -28,27 +28,25 @@ class InstagramButton extends Component {
   render() {
     if (this.state.user && this.props.username) {
       return (
-        <div>
-          <a
-            href={`https://www.instagram.com/${this.props.username}`}
-            target="_blank"
-            class="Container"
-          >
-            <button class="Button">
-              <div class="IconContainer">
-                <a class="Icon">
-                  <FontAwesomeIcon icon={faInstagram} />
-                </a>
-              </div>
-              <div class="UserName">
-                <div>Follow @{this.props.username}</div>
-              </div>
-            </button>
-            <div class="Bubble">
-              {this.state.user.edge_followed_by.count} followers
+        <a
+          href={`https://www.instagram.com/${this.props.username}`}
+          target="_blank"
+          class="Container"
+        >
+          <button class="Button">
+            <div class="IconContainer">
+              <a class="Icon">
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
             </div>
-          </a>
-        </div>
+            <div class="UserName">
+              <div>Follow @{this.props.username}</div>
+            </div>
+          </button>
+          <div class="Bubble">
+            {this.state.user.edge_followed_by.count} followers
+          </div>
+        </a>
       );
     } else {
       return <div></div>;
