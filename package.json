@@ -1,6 +1,6 @@
 {
   "name": "react-instagram-button",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Instagram follow button component for React",
   "main": "build/index.js",
   "peerDependencies": {
