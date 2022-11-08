@@ -12,7 +12,7 @@
     "@fortawesome/react-fontawesome": "^0.1.9",
     "axios": "^0.19.2",
     "react": "^15.5.4",
-    "webpack": "^2.6.1"
+    "webpack": "^5.74.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
